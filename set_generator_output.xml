@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exchange>
+   <selectionsets>
+      <viewfolder>
+         <selectionset name="CONTRA PISO EXEMPLO - G02">
+            <findspec mode="all" disjoint="0">
+               <conditions>
+                  <condition test="equals" flags="10"></condition>
+                  <category>
+                     <name internal="LcRevitData_Element">
+                        Element
+                     </name>
+                  </category>
+                  <property>
+                     <name internal="LcRevitPropertyElementType">
+                        Type
+                     </name>
+                  </property>
+                  <value>
+                     <name internal="wstring">
+                        1_CONTRA PISO 4 cm
+                     </name>
+                  </value>
+               </conditions>
+               <locator></locator>
+            </findspec>
+         </selectionset>
+         <selectionset name="CONTRA PISO EXEMPLO - TIPO 1">
+            <findspec mode="all" disjoint="0">
+               <conditions>
+                  <condition test="equals" flags="10"></condition>
+                  <category>
+                     <name internal="LcRevitData_Element">
+                        Item
+                     </name>
+                  </category>
+                  <property>
+                     <name internal="LcRevitPropertyElementType">
+                        Material
+                     </name>
+                  </property>
+                  <value>
+                     <name internal="wstring">
+                        Chapisco
+                     </name>
+                  </value>
+               </conditions>
+               <locator></locator>
+            </findspec>
+         </selectionset>
+      </viewfolder>
+   </selectionsets>
+</exchange>
